@@ -5,12 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule, MatButtonModule, MatIconModule } from '@angular/material';
+import { ImageUploadComponent } from './image-upload/image-upload.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    ImageUploadComponent,
   ],
   imports: [
     BrowserModule,
