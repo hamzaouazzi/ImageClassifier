@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule, MatButtonModule, MatIconModule } from '@angular/material';
 import { ImageUploadComponent } from './image-upload/image-upload.component';
+import { ImageWebcamComponent } from './image-webcam/image-webcam.component';
 
 
 
@@ -14,6 +15,7 @@ import { ImageUploadComponent } from './image-upload/image-upload.component';
     AppComponent,
     HeaderComponent,
     ImageUploadComponent,
+    ImageWebcamComponent,
   ],
   imports: [
     BrowserModule,
